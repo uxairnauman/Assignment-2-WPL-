@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <rect width="200" height="200" fill="#f0f4ff" />
+    <circle cx="100" cy="80" r="45" fill="#1c4b82" />
+    <rect x="50" y="130" width="100" height="50" fill="#4f7cac" />
+    <text x="100" y="190" font-size="20" text-anchor="middle" fill="#1c4b82"
+        font-family="Arial, sans-serif">Hello!</text>
+</svg>

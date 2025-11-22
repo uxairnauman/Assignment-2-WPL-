@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact details for CSC 337 Assignment 2">
+    <meta name="author" content="Team Portfolio">
+    <title>Portfolio | Contact</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a class="logo" href="index.html">Team Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hobbies.html">My Hobbies</a></li>
+                    <li><a href="media.html">Favorite Media</a></li>
+                    <li><a aria-current="page" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Let's collaborate</h1>
+                <p>Reach out to us for collaborations, design critiques, or upcoming CSC 337 projects.</p>
+                <div class="two-column">
+                    <div class="contact-card">
+                        <h2>Primary contact</h2>
+                        <div class="info-line"><span>Name:</span> Uzair Nauman</div>
+                        <div class="info-line"><span>Designation:</span> Lead Front-end Developer</div>
+                        <div class="info-line"><span>Email:</span> <a href="mailto:uzair.nauman@gmail.com">uzair.nauman@gmail.com</a></div>
+                        <div class="info-line"><span>Phone:</span> +92 304 9876543</div>
+
+                        <h3 style="margin-top: 1.5rem;">Group members</h3>
+                        <ul class="members-list">
+                            <li>Uzair Nauman Beg - 38074 </li>
+                            <li>M. Uzair Arif - 38498</li>
+                            <li>Zayn Saeed Mughal - 39719</li>
+                        </ul>
+                    </div>
+                    <div class="contact-card">
+                        <h2>Drop us a note</h2>
+                        <!-- Simple form layout to keep the card responsive -->
+                        <form class="contact-form">
+                            <label>
+                                Full Name
+                                <input type="text" name="full-name" placeholder="Your name" required>
+                            </label>
+                            <label>
+                                Email Address
+                                <input type="email" name="email" placeholder="you@example.com" required>
+                            </label>
+                            <label>
+                                Topic
+                                <select name="topic">
+                                    <option>Project feedback</option>
+                                    <option>Collaboration</option>
+                                    <option>Speaking invite</option>
+                                </select>
+                            </label>
+                            <label>
+                                Message
+                                <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+                            </label>
+                            <button class="btn" type="submit">Send message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="map-section">
+                    <h2>Find us on campus</h2>
+                    <div class="two-column campus-visit">
+                        <div class="campus-details card">
+                            <p>We meet prospective collaborators at our studio inside the Iqra University Islamabad Campus. Stop by for a walkthrough of our current CSC 337 experiments.</p>
+                            <address>
+                                <strong>Iqra University Islamabad Campus</strong><br>
+                                Plot #5, Khayaban-e-Johar, H-9/1<br>
+                                Islamabad, Pakistan
+                            </address>
+                            <ul class="campus-meta">
+                                <li><span>Visiting hours:</span> Monday &ndash; Friday · 10:00 AM &ndash; 4:00 PM</li>
+                                <li><span>Landmarks:</span> Adjacent to Metrobus H-9/I Station, opposite Higher Education Commission.</li>
+                                <li><span>Contact desk:</span> +92 51 486 6104</li>
+                            </ul>
+                            <a class="btn" href="https://maps.google.com/?q=Iqra+University+Islamabad+Campus" target="_blank" rel="noopener">Open in Google Maps</a>
+                        </div>
+                        <div class="map-wrapper">
+                            <iframe class="map"
+                                title="Map showing Iqra University Islamabad Campus"
+                                src="https://www.google.com/maps?q=Iqra+University+Islamabad+Campus&output=embed"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Team Portfolio · Built for CSC 337 Assignment 2</p>
+    </footer>
+</body>
+
+</html>
