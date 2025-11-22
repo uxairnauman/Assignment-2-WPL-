@@ -1,7 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-    <rect width="200" height="200" fill="#f0f4ff" />
-    <circle cx="100" cy="80" r="45" fill="#1c4b82" />
-    <rect x="50" y="130" width="100" height="50" fill="#4f7cac" />
-    <text x="100" y="190" font-size="20" text-anchor="middle" fill="#1c4b82"
-        font-family="Arial, sans-serif">Hello!</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="profileTitle">
+    <title id="profileTitle">Stylized avatar illustration</title>
+    <defs>
+        <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#d7ecff" />
+            <stop offset="100%" stop-color="#f4f7ff" />
+        </linearGradient>
+        <linearGradient id="shirt" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#1c4b82" />
+            <stop offset="100%" stop-color="#123155" />
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="20" fill="url(#bg)" />
+    <circle cx="100" cy="85" r="48" fill="#ffe9d6" />
+    <path d="M70 150 Q100 175 130 150 V190 H70Z" fill="url(#shirt)" />
+    <circle cx="80" cy="80" r="5" fill="#1c4b82" />
+    <circle cx="120" cy="80" r="5" fill="#1c4b82" />
+    <path d="M78 100 Q100 115 122 100" stroke="#bf6b3d" stroke-width="4" fill="none" stroke-linecap="round" />
+    <path d="M65 65 Q100 30 135 65" fill="#1c4b82" />
+    <rect x="55" y="132" width="90" height="40" rx="12" fill="#4f7cac" opacity="0.2" />
 </svg>
